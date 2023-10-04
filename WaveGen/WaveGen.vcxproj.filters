@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{66e0443a-8569-40d0-9ca3-900683601b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pch">
+      <UniqueIdentifier>{93fa1ec8-d982-441b-ba90-a1fc8bd9a923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\res">
+      <UniqueIdentifier>{2feb643c-e9fa-4a58-a118-a32ba6cae786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{0d064549-248e-4b54-acb3-0ee8c285f4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dlg">
+      <UniqueIdentifier>{4d557115-0a5c-413f-9b3f-bc468f4ccb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\wav">
+      <UniqueIdentifier>{01f85aa9-4e6b-4b89-9723-a23b30218441}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>src\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>src\res</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>src\res</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src\res</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveGen.h">
+      <Filter>src\app</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveGenDlg.h">
+      <Filter>src\dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="Wav.h">
+      <Filter>src\wav</Filter>
+    </ClInclude>
+    <ClInclude Include="Riff.h">
+      <Filter>src\wav</Filter>
+    </ClInclude>
+    <ClInclude Include="Fmt.h">
+      <Filter>src\wav</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>src\wav</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveWrite.h">
+      <Filter>src\wav</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>src\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveGen.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveGenDlg.cpp">
+      <Filter>src\dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="Wav.cpp">
+      <Filter>src\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="Riff.cpp">
+      <Filter>src\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="Fmt.cpp">
+      <Filter>src\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>src\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveWrite.cpp">
+      <Filter>src\wav</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WaveGen.ico">
+      <Filter>src\res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WaveGen.rc">
+      <Filter>src\res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WaveGen.rc2">
+      <Filter>src\res</Filter>
+    </None>
+  </ItemGroup>
+</Project>
